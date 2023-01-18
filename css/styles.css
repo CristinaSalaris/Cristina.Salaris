@@ -1,0 +1,165 @@
+/* 
+#FED049
+#CFFDE1
+#68B984
+#3D5656
+*/
+
+/*texts*/
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #3d5656;
+  font-size: 120px;
+  font-family: "Sacramento", cursive;
+  margin: 20px 0 20px 0;
+}
+
+h2 {
+  color: #407a55;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 35px;
+  }
+
+h3 {
+  color: #68b984;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  
+}
+
+.p {
+  color: #40514e;
+  line-height: 2;
+}
+
+a{
+  font-family: "Montserrat", sans-serif;
+  color: #407a55;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6 ;
+}
+
+hr{
+  border: dotted #FED049 6px ;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto ;
+  
+}
+
+
+/*imagines*/
+
+.beach {
+  border-radius: 8%;
+  padding-top: 20px;
+  width: 450px;
+}
+
+.top-crab {
+  position: absolute;
+  right: 300px;
+  top: 20px;
+  width: 100px;
+}
+
+.bottom-crab {
+  position: absolute;
+  width: 100px;
+  left: 300px;
+  top: 400px;
+}
+
+.profile {
+  margin: 20px 0 20px 0;
+}
+
+.swim-img{
+  float: left;
+  margin-right: 20px;
+  width: 25%;
+}
+
+.cooking-img{
+  float: right;
+  margin-left: 20px;
+  width: 25%;
+}
+
+.play-img{
+  float: left;
+  margin-right: 20px;
+  width: 25%;
+}
+
+
+
+/*container*/
+
+.top-container {
+  background-color: #cce5db;
+  position: relative;
+  padding-top: 100px;
+}
+
+.my-passion-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container{
+  background-color: #cce5db;
+  text-align: center;
+  padding: 50px 0 20px;
+}
+
+.contact-me{
+  margin-bottom: 30px;
+}
+
+
+.btn {
+  font-family: "Merriweather", serif;
+  background: #53a67b;
+  background-image: -webkit-linear-gradient(top, #53a67b, #39734d);
+  background-image: -moz-linear-gradient(top, #53a67b, #39734d);
+  background-image: -ms-linear-gradient(top, #53a67b, #39734d);
+  background-image: -o-linear-gradient(top, #53a67b, #39734d);
+  background-image: linear-gradient(to bottom, #53a67b, #39734d);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px; 
+  color: #e9eda4;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4db362;
+  background-image: -webkit-linear-gradient(top, #4db362, #4ea66b);
+  background-image: -moz-linear-gradient(top, #4db362, #4ea66b);
+  background-image: -ms-linear-gradient(top, #4db362, #4ea66b);
+  background-image: -o-linear-gradient(top, #4db362, #4ea66b);
+  background-image: linear-gradient(to bottom, #4db362, #4ea66b);
+  text-decoration: none;
+}
+
+.copy{
+  font-family: "Merriweather", serif;
+  color: #53a67b;
+
+}
